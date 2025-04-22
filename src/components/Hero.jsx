@@ -6,7 +6,7 @@ import heroImg from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <section className=" container mx-auto pt-44 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+    <section id="home" className=" container mx-auto pt-44 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
       {/* left col  */}
       <div className="w-full md:w-1/2 space-y-8 ">
         <div className=" flex justify-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full transition-colors hover:bg-gray-100">
@@ -44,7 +44,7 @@ const Hero = () => {
             placeholder="Email Address"
             className=" flex-1 px-6 py-4 border border-gray-200 focus:ring-blue-200 transition-all rounded-xl focus:outline-none focus:border-blue-600"
           />
-          <button className=" px-8 py-5 bg-blue-600 text-white rounded-xl cursor-pointer transition-all hover:shadow-lg  hover:shadow-blue-200">
+          <button className=" ml-3 px-8 py-[22px] bg-blue-600 text-white rounded-xl cursor-pointer transition-all hover:shadow-lg  hover:shadow-blue-200">
             <IoMdArrowForward />
           </button>
         </div>
