@@ -6,6 +6,7 @@ import "./app.css";
 import PurposeSection from "./components/PurposeSection";
 import FeatureSections from "./components/FeatureSections";
 import ScheduleSections from "./components/ScheduleSections";
+import MonitorFeatures from "./components/MonitorFeatures";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <PurposeSection />
         <FeatureSections />
         <ScheduleSections />
+        <MonitorFeatures />
       </div>
     </main>
   );
