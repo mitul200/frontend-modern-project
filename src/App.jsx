@@ -1,10 +1,12 @@
 import React from "react";
 import Navber from "./components/Navber";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
     <div>
-      <Navber></Navber>
+      <Navber />
+      <Hero />
     </div>
   );
 };
