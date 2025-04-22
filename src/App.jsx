@@ -5,6 +5,7 @@ import CompanyLogo from "./components/CompanyLogo";
 import "./app.css";
 import PurposeSection from "./components/PurposeSection";
 import FeatureSections from "./components/FeatureSections";
+import ScheduleSections from "./components/ScheduleSections";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <CompanyLogo />
         <PurposeSection />
         <FeatureSections />
+        <ScheduleSections />
       </div>
     </main>
   );
